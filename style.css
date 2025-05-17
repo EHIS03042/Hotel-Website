@@ -4,3 +4,90 @@
 --blue-color: #2A90D9;
 --white-color: #F5F5F5;
 }
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Montserrat", 'Times New Roman';
+}
+.user {
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.logo {
+    margin-left: 5%;
+}
+.menu {
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.background {
+    margin-left: 0.5%;
+}
+.apartment {
+    display: block;
+    padding: 3px;
+    margin-top: -80%;
+    margin-left: 1%;
+    font-weight: 800;
+}
+.several {
+    padding: 3px;
+    margin-left: 1%;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.search-field {
+    margin-top: 9%;
+}
+.choose {
+    text-align: center;
+}
+.reason {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.payment {
+    margin-left: -70px;
+    margin-top: 15px;
+    position: absolute;
+}
+.search {
+    margin-left: -70px;
+    margin-top: 25px;
+    position: absolute; 
+}
+.support {
+    margin-left: -72px;
+    margin-top: 25px;
+    position: absolute;  
+}
+.nice {
+    margin-left: -72px;
+    margin-top: 25px;
+    position: absolute;
+}
+.special {
+    text-align: center;
+}
+.room-1, .room-2, .room-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 2px;
+    margin-left: 12%;
+    margin-bottom: -15%;
+}
+.heart {
+    transform: translateY(-140px);
+}  
+.rating {
+    transform: translateY(-130px);
+    margin-right: 155px;
+}
