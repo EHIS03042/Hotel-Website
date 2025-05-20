@@ -91,6 +91,10 @@ body {
     transform: translateY(-130px);
     margin-right: 155px;
 }
+.wilderness {
+    text-align: left;
+    margin-left: 10%;
+    }
 .dollar {
     font-family: Montserrat;
     font-size: 30;
@@ -127,9 +131,40 @@ display: inline-block;
 .title {
     list-style: none;
 }
-.newsletter {
-    text-align: center;
-}
 .phone-icon, .facebook, .youtube, .instagam, .telegram {
     display: inline-block;
+}
+.newsletter {
+    text-align: left;
+    margin-left: 10%;
+}
+.input-field {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.submit-btn {
+    margin-left: 86%;
+    margin-top: -10%;
+    transform: translateY(-15px);
+}
+.social {
+    list-style: none;
+    display: flex;
+    margin-left: -9.5%;
+    justify-content: space-evenly;
+    /* white-space: nowrap; */
+    flex-shrink: revert;
+    /* padding-right: 0; */
+    margin-right: 10em;
+}
+.delvig {
+    white-space: nowrap;
+    margin-left: 5%;
+    display: inline-flex;
+}
+.design {
+    transform: translateY(-85%);
+    margin-right: 5px;
 }
