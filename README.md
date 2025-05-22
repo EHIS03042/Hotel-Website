@@ -17,8 +17,10 @@
 - License
 ## Project Overview
 This project is a responsive mobile-view of a Hotel-Website; designed to showcase affordable and exciting hotel accomodation options at prime locations and the special offers available to those who book online.This weblayout is intentionally structured and styled to enhance the overall user experience on mobile screen(s). The hamburger-menu, the Why Choose Us, Special Offers, Reviews and Recent Posts sections were dynamically rendered using JavaScript.The information and pictorials are strategically ordered to maximize client engagement along with the call-to-action within each section. The page is divided into Eight(8) main sections including a footer.
+
 ## Live Demo
-- [[live_demo](https://travel-website-li3g.onrender.com)]
+- [[live_demo](https://hotel-website-49nj.onrender.com)]
+
 ## Project Features
 
 ### Section 1: Header and Navigation(Dynamically Rendered Hamburger Menu)
