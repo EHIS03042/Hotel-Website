@@ -143,7 +143,7 @@
     margin-right: 5px;
 }
 .user-icon{
-    margin-left: 50px;
+    margin-right: 10%;
 }
 
 body {
@@ -163,6 +163,9 @@ body {
 }
 .background {
     margin-left: 0.5%;
+}
+.search-field {
+    margin-top: 10%;
 }
 .apartment {
     display: block;
@@ -230,18 +233,19 @@ body {
     }
 .dollar {
     font-family: Montserrat;
-    font-size: 30;
-    font-weight: medium;
+    font-size: 30px;
+    font-weight: 500;
     color: #2A90D9;
     margin-left: -5px;
 }
 .price {
-font-size: 25px;
+    font-size: 24px;
+    font-weight: bold;
     }
 
 .night {
     font-family: Montserrat;
-    font-size: 18;
+    font-size: 18px;
     font-weight:300;
     color: #2A90D9;
 }
@@ -254,6 +258,9 @@ font-size: 25px;
 .recent {
     text-align: center;
     margin-left: 5%;
+}
+.para {
+    text-align: left;
 }
 .date1, .clock, .five-mins {
 display: inline-block;

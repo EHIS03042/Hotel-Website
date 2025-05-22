@@ -59,28 +59,28 @@ renderProduct(whyContainer);
 
 const offersContainer = [
     {
-        image1: "images/room-1.png",
+        image1: "images/room1.png",
         image2: "images/rating-star-icon.svg",
         image3: "images/favorite-heart.svg",
         title: "Wilderness Club at Big Ceddar",
         description1: "28 October - 1 November",
-        description2: " <span>$2016</span> /6 night"
+        description2: `<span class="price">$2016</span><span class="night"> /6 night</span>`
     },
     {
-        image1: "images/room-2.png",
+        image1: "images/room2.png",
         image2: "images/rating-star-icon.svg",
         image3: "images/favorite-heart.svg",
         title: "Wilderness Club at Big Ceddar",
         description1: "28 October - 1 November",
-        description2: " <span>$2016</span> /6 night"
+        description2: `<span class="price">$2016</span><span class="night"> /6 night</span>`
     },
     {
-        image1: "images/room-3.png",
+        image1: "images/room3.png",
         image2: "images/rating-star-icon.svg",
         image3: "images/favorite-heart.svg",
         title: "Wilderness Club at Big Ceddar",
         description1: "28 October - 1 November",
-        description2: " <span>$2016</span> /6 night"
+        description2: `<span class="price">$2016</span><span class="night"> /6 night</span>`
     },
 ]
 
@@ -142,23 +142,25 @@ const postContainer = [
         image1: "images/athens.png",
         description1: "May 23, 2022",
         image2: "images/time-five-icon.svg",
-        image3: "5_minutes_icon.svg",
+        image3: "images/5_minutes_icon.svg",
         title: "My trip to Athens",
         description2: "It would seem that in a city where Theseus,<br> Plato and Epicurus once walked,<br> the very idea of the subway is alien to the city, but already...",
     },
     { 
         image1: "images/vilnius-resort.png",
         description1: "May 22, 2022",
-        image2: "assets/time-1minute.png",
+        image2: "images/time-five-icon.svg",
+        image3: "images/1_minute_icon.svg",
         title: "Vilnius resorts",
         description2: "I haven't seen any resorts in Vilnius,<br>but there are wonderful people and pubs",
     },
     { 
-        image1: "assets/plane.png",
+        image1: "images/plane-flying.png",
         description1: "May 22, 2022",
-        image2: "assets/time-15minutes.png",
+        image2: "images/time-five-icon.svg",
+        image3: "images/15_minutes_icon.svg",
         title: "Tips for flying on a plane",
-        description2: "If you have a fear of flying,<br> here's a helpful tip:<br> bring your co-pilot so you can take a nap while he steers the plane for you",
+        description2: "If you have a fear of flying, here's a <br> helpful tip: bring your co-pilot so you can <br>take a nap while he steers the plane for <br> you",
     },
 
 ];
@@ -166,18 +168,18 @@ const postContainer = [
 const renderPost = postContainer => {
     const container = document.getElementById('postContainer');
     postContainer.forEach(postContainer => {
-        container.innerHTML += `
-               <div>
-                       <img src="${postContainer.image1}" alt="" class="athens">
+    container.innerHTML += `
+            <div>
+                <img src="${postContainer.image1}" alt="" class="athens">
                         <p class="date1">${postContainer.description1}</p> 
                         <img src="${postContainer.image2}" alt="clock" class="clock">
                         <img src="${postContainer.image3}" class="five-mins" alt="five-mins">
                         <h3>${postContainer.title}</h3>
-                        <p>${postContainer.description2}</p>
-                </div>
+                        <p class="para">${postContainer.description2}</p>
+
+            </div>
         `;
     });
 }
 
 renderPost(postContainer);
-
