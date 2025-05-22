@@ -26,12 +26,12 @@ This project is a responsive mobile-view of a Hotel-Website; designed to showcas
 ### Section 1: Header and Navigation(Dynamically Rendered Hamburger Menu)
 - Contains a navigation tag for the menu icon(drops down when clicked without distorting the webpage flow), the brand name(Your.logo) and a user icon.
 - Next are div tags nested within the header, enclosing content stacked by layers:
-  The following are wrapped within an li tag:
+  **The following are wrapped within an li tag:
   - Last minute deals
   - Blog
   - About us
   - Contacts
-  These and displayed as images:
+  **These and displayed as images:
   - A Dollar sign icon
   - An RU language icon
   - Five(5) Social Media icons
@@ -120,7 +120,7 @@ The  HTML page is styled using CSS with classes assigned for selector specificit
  
 
 ## Presentation link
-[[Presentation Link](https://www.loom.com/share/abefe99718ec49618c7afd26fb46b75d?sid=c4337770-13ac-41b5-8252-11d504dc1dc7)]
+[[Presentation Link](https://www.loom.com/share/7fb719dacd424fd181930f627a309cae?sid=7528c45d-d6b1-41b4-a0d9-da2f7ca616fc)]
 
 ## Author
 Name: [Tolulope McSmith - EHIS03042]
