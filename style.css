@@ -3,6 +3,7 @@
 --coral-color: #EE3B3B;
 --blue-color: #2A90D9;
 --white-color: #F5F5F5;
+--aquablue-color: #3D97B4;
 }
 
 *,
@@ -10,9 +11,144 @@
 *::before {
     box-sizing: border-box;
 }
+.header {
+    background-color:white ;
+    /* padding: 15px 7px 15px 7px; */
+}
+#icon {
+    margin-left: 50px;
+    float: right;
+    margin-top: -53px;
+}
+.logo {
+    display: flex;
+}
+#logo {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.header {
+    margin-top: 20px;
+}
+.header h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2A90D9;
+    margin-left: 60px;
+    margin-top: -30px;
+    
+}
+.header h1 span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #EE685F;
+    }
+.menu-toggle {
+    display: block;
+    border: none;
+    background-color:white ;
+    margin-right: 210px;
+
+}
+.nav-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    z-index: 1;
+    
+    
+}
+#user-icon {
+    margin-left: 40px;
+    margin-top: 15px;
+    height: 35px;
+}
+.nav-menu.active {
+    transform: translateX(0);
+    display: flex;
+    gap: 8px;
+}
+.nav-menu ul {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+    list-style: none;
+    
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+#gap {
+    margin-top: 20px;
+    
+}
+.close-menu {
+    display: block;
+    border: none;
+    background-color:white ;
+    font-size: 50px;
+    margin-top: -5px;
+}
+.links {
+    margin-top: 110px;
+}
+#phone{
+    margin-left: 10px;
+}
+#Facebook{
+    margin-left: 5px;
+}
+#ytube{
+    margin-left: 5px;
+}
+#inst{
+    margin-left: 5px;
+}
+#tele{
+    margin-left: 5px;
+}
+.mon-lan {
+    margin-top: 10px;
+}
+#RU {
+    margin-left: 15px;
+}
+.navigation{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu-icon{
+    width: 40px;
+    height: 30px;
+    margin-right: 5px;
+}
+.user-icon{
+    margin-left: 50px;
+}
+
 body {
     margin: 0;
-    font-family: "Montserrat", 'Times New Roman';
+    font-family: "Montserrat";
 }
 .user {
     margin-left: 20%;
@@ -40,9 +176,6 @@ body {
     margin-left: 1%;
     font-family: 'Montserrat';
     font-weight: 400;
-}
-.search-field {
-    margin-top: 9%;
 }
 .choose {
     text-align: center;
@@ -100,7 +233,12 @@ body {
     font-size: 30;
     font-weight: medium;
     color: #2A90D9;
+    margin-left: -5px;
 }
+.price {
+font-size: 25px;
+    }
+
 .night {
     font-family: Montserrat;
     font-size: 18;
@@ -115,6 +253,7 @@ body {
 }
 .recent {
     text-align: center;
+    margin-left: 5%;
 }
 .date1, .clock, .five-mins {
 display: inline-block;
@@ -168,3 +307,4 @@ display: inline-block;
     transform: translateY(-85%);
     margin-right: 5px;
 }
+

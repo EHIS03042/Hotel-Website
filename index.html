@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hotel-Website-Mobile></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -11,15 +11,35 @@
 </head>
 <body class="flex-container">
     <main>
-        <header>
-            <div class="wrapper">
-                <nav>
-                    <img src="images/hamburger-menu.svg" class="menu">
-                    <img src="images/Your.logo.png" class="logo">
-                    <img src="images/user-icon.svg" class="user">
-                </nav>
-        </header>
-
+        <header class="header">
+        <div id="menuToggle" class="menu-toggle"><img src="images/hamburger-menu.svg" alt=""></div>
+        <nav id="navMenu" class="nav-menu grid">
+            <div class="logo">
+                <div id="closeMenu" class="close-menu"><img src="images/close-cross-icon.svg" alt=""></div>
+                <h1 id="logo">Your<span>.logo</span></h1>
+                <img src="images/user-icon.svg" alt="" id="user-icon">
+            </div>
+            <ul>
+                <li id="gap"><a href="#">Last Minute Deals</a></li>
+                <li id="gap"><a href="#">Blog</a></li>
+                <li id="gap"><a href="#">About us</a></li>
+                <li id="gap"><a href="#">Contacts</a></li>
+            </ul>
+            <div class="mon-lan">
+                <img src="images/dollar-sign-icon.svg" alt="" id="dollar-sign">
+                <img src="images/RU-icon.svg" alt="" id="RU">
+            </div>
+            <div class="links" id="social">
+                <img src="images/mobile-contact-icon.svg" alt="" id="phone">
+                <img src="images/facebook.svg" alt="" id="Facebook">
+                <img src="images/youtube.svg" alt="" id="ytube">
+                <img src="images/instagram.svg" alt="" id="inst">
+                <img src="images/telegram.svg" alt="" id="tele">
+            </div>
+        </nav>
+        <h1>Your<span>.logo</span></h1>
+        <img src="images/user-icon.svg" alt="" id="icon">
+    </header>
                 <!-- End of Navigation Menu-->
 
     <section>
@@ -48,20 +68,19 @@
                 <br> different
                 </p>
             </div>
+            <div id="whyContainer"></div>
             <div>
                 <img src="images/ellipse_icon.svg" class="blue-ellipse">
                 <img src="images/payment-method-icon.svg" class="payment">
                 <h3>Payment methods</h3>
-                <p>We have a lot of them, from 
-                    <br> cryptocurrencies to barter for potatoes
+                <p>We have a lot of them, from cryptocurrencies to barter for potatoes
                 </p>
             </div>
-            <div>
+            <!-- <div>
                 <img src="images/ellipse_icon.svg" class="blue-ellipse" alt="">
                 <img src="images/search_icon.svg" class="search" alt="">
                 <h3>Simple search process</h3>
-                <p>We checked it out, even the kid did it, 
-                    <br> but it was my mom's friend's son
+                <p>We checked it out, even the kid did it, but it was my mom's friend's son
                 </p>
             </div>
             <div>
@@ -70,8 +89,8 @@
                 <h3>24/7 Support</h3>
                 <p>
                     Is there something you don't 
-                    <br> understand? Feel free to call us. 
-                    <br> Phone number in the footer
+                understand? Feel free to call us. 
+                Phone number in the footer
                 </p>
             </div>
             <div>
@@ -79,18 +98,19 @@
                 <img src="images/nice_cat_icon.svg" class="nice" alt="nice">
                 <h3>We are nice</h3>
                 <p>Fantasy is over, there will be something 
-                <br> really convincing here
+                really convincing here
                 </p>
-            </div>
+            </div> -->
         </section>
 
             <!-- End of Why Choose Us Section -->
             
             <section class="special">
+        
                 <div>
                     <h2>Special offers</h2>
                 </div>
-                <div>
+                <!-- <div>
                     <img src="images/room1.png" class="room-1">
                     <img src="images/rating-star-icon.svg" class="rating" alt="rating">
                     <img src="images/favorite-heart.svg" class="heart">
@@ -98,7 +118,7 @@
                 <div>
                     <h3 class="wilderness">Wilderness Club at Big <br> Ceddar</h3>
                     <p>28 October — 1 November</p>
-                    <p class="dollar"><strong>$2016</strong> <span class="night">/6 night</span></p>
+                    <p class="dollar"><strong><span class="price">$2016</span></strong><span class="night">/6 night</span></p>
                 </div>
                 <div>
                     <img src="images/room2.png" class="room-2">
@@ -108,7 +128,7 @@
                 <div>
                     <h3 class="wilderness">Wilderness Club at Big <br> Ceddar</h3>
                     <p>28 October — 1 November</p>
-                    <p class="dollar"><strong>$2016</strong> <span class="night">/6 night</span></p>
+                    <p class="dollar"><strong><span class="price">$2016</span></strong> <span class="night">/6 night</span></p>
                 </div>
                 <div>
                     <img src="images/room3.png" class="room-3">
@@ -118,8 +138,9 @@
                 <div>
                     <h3 class="wilderness">Wilderness Club at Big <br> Ceddar</h3>
                     <p>28 October — 1 November</p>
-                    <p class="dollar"><strong>$2016</strong><span class="night">/6 night</span></p>
-                </div>
+                    <p class="dollar"><strong><span class="price">$2016</span></strong><span class="night">/6 night</span></p>
+                </div> -->
+                <div id="offersContainer"></div>
             </section>
 
             <!-- End of Special Offers Section -->
@@ -170,6 +191,7 @@
         <div>
             <img src="images/more-reviews-btn.svg" id="more-reviews" class="more-reviews" alt="more-reviews">
         </div>
+        <div id="moreContainer"></div>
             </section>
 
     <!-- End of Reviews Section -->
@@ -215,6 +237,7 @@
             <br> you.
         </p>
     </div>
+    <div id="postContainer"></div>
             </section>
 
 <!-- End of Recent Posts Section -->
