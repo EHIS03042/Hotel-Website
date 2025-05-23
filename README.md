@@ -13,6 +13,7 @@
 - How to run
 - Folder structure
 - Presentation Link
+- Code Review Update
 - Author Details
 - License
 ## Project Overview
@@ -121,6 +122,13 @@ The  HTML page is styled using CSS with classes assigned for selector specificit
 
 ## Presentation link
 [[Presentation Link](https://www.loom.com/share/7fb719dacd424fd181930f627a309cae?sid=7528c45d-d6b1-41b4-a0d9-da2f7ca616fc)]
+
+## Code Review Update
+1 Review :
+Add overflow: hidden to the body when the menu is open to prevent scrolling.
+When the hamburger menu is clicked, the social links are colliding with the "Choose Us" section. You should consider using position: fixed for the menu so it overlays the content instead of pushing or overlapping it. This will improve the user experience, especially on mobile.
+Make sure any other fixed elements like social links also have appropriate z-index values so they don’t overlap improperly.
+**Required Changes made.**
 
 ## Author
 Name: [Tolulope McSmith - EHIS03042]
