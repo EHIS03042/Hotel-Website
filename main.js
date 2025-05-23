@@ -6,10 +6,12 @@ document.addEventListener("DOMContentLoaded", function() {
     if (menuToggle && navMenu && closeMenu) {
         menuToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
+            document.body.classList.add('no-scroll');
         });
 
         closeMenu.addEventListener('click', () => {
             navMenu.classList.remove('active');
+            document.body.classList.remove('no-scroll');
         });
     }
 });
